@@ -1,0 +1,2 @@
+1.Open the project folder then you have "DB setup" folder. Open the "DB setup" folder.You will have "dbSetup.php" file.
+2.Open your favorite web browser. Run this file from your localhost, database will set up automatically. 

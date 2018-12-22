@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+}
+
+form{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #3498db;
+}
+.wrapper{
+	background-image: url("../images/background/Handshake.jpg");
+	background-size: 100%; 
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.login_box{
+	font-family: sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 8%;
+	width: 35%;
+	background-color: #fff;
+	border: 1px solid #EDEDED;
+	border-radius:5px;
+	padding: 8px;
+	opacity:0.98;
+}
+.login_header{
+	font-family: sans-serif;
+	width:100%;
+	height:90px;
+	background-color: #4A6483;
+	color:#fff; 
+	text-align: center;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.login_header h1{
+	font-family: Bell MT Italic;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #ecf0f1;
+}
+input[type="submit"]{
+	background-color: #4A6483;
+	border: 1px solid #34495E;
+	border-radius: 3px;
+	margin: 5px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 100%;
+	cursor: pointer;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+	border: 1px solid #e5e5e5;
+    margin-top: 5px;
+    width: 70%;
+    height: 31px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    border-radius: 3px;
+    padding-left: 3px;
+}
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover{
+	border-color: #3498db;
+}
+#second{
+	display: none;
+}
+
+
+
+
+
+
